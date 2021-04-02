@@ -1,0 +1,423 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+/*Header Section*/
+header{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo img{
+	width: 211px;
+	margin: 7px 7px;
+}
+.menu{
+	width: 50%;
+	float: left;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	margin: 21px 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #161616;
+	font-weight: bold;
+
+}
+/*Social Section*/
+.social{
+	width: 30%;
+	float: left;
+}
+.social ul{
+	list-style: none;
+}
+.social ul li{
+	display: inline-block;
+	margin: 16px 10px;
+}
+.social ul li a{
+
+}
+.fa.fa-facebook{
+	background-color: #4064AC;
+    color: #fff;
+    padding: 5px 7px;
+}
+.fa.fa-twitter{
+	background-color: #4EA0EC;
+    color: #fff;
+    padding: 5px 7px;
+}
+.fa.fa-linkedin{
+	background-color: #0B65C3;
+    color: #fff;
+    padding: 5px 7px;
+}
+.fa.fa-google-plus{
+	background-color: #DE5045;
+    color: #fff;
+    padding: 5px 7px;
+}
+.fa.fa-sign-in{
+	
+}
+/*About Section*/
+.hero{
+	width: 100%;
+    float: left;
+    background: url(../img/banner.jpg) no-repeat;
+    background-size: cover;
+    padding: 60px 0px;
+    min-height: 100vh;
+}
+.hero-main{
+	background-color: #a3aab075;
+	width: 50%;
+	padding: 45px 15px;
+}
+.hero-main h2{
+	font-size: 70px;
+    text-align: center;
+}
+.hero-main p{
+	text-align: center;
+    margin: 9px 0px;
+    font-size: 16px;
+}
+.hero-main ul{
+	list-style:none;
+	text-align: center;
+	margin: 12px auto;
+}
+.hero-main ul li{
+	display: inline-block;
+    margin: 10px 6px;
+
+
+}
+.hero-main ul li a{
+	text-decoration: none;
+    background-color: #67C529;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+}
+
+/*Service Section*/
+.service{
+	padding: 25px 0px;
+    width: 100%;
+    float: left;
+}
+.service-one{
+	width: 25%;
+    float: left;
+    margin: 0px auto;
+    text-align: center;
+}
+.fa.fa-check{
+	background-color: #6E81D9;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+   	font-size: 30px;
+
+}
+.service-one h2{
+	margin: 7px 0px;
+}
+.service-one p{
+	margin: 3px 0px;
+}
+.service-btn{
+	background-color: #67C529;
+    padding: 2px 2px;
+    margin: 10px auto;
+    border-style: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+}
+.service-two{
+	width: 25%;
+    float: left;
+    margin: 0px auto;
+    text-align: center;
+}
+.fa.fa-map-marker{
+	background-color: #039588;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+   	font-size: 30px;
+}
+.service-two h2{
+	margin: 7px 0px;
+}
+.service-two p{
+	margin: 3px 0px;
+}
+.service-three{
+	width: 25%;
+    float: left;
+    margin: 0px auto;
+    text-align: center;
+}
+.fa.fa-money{
+	background-color: #4AB24D;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+   	font-size: 30px;
+}
+.service-three h2{
+	margin: 7px 0px;
+}
+.service-three p{
+	margin: 3px 0px;
+}
+.service-four{
+	width: 25%;
+    float: left;
+    margin: 0px auto;
+    text-align: center;
+}
+.fa.fa-user-plus{
+	background-color: #93E566;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+   	font-size: 30px;
+}
+.service-four h2{
+	margin: 7px 0px;
+}
+.service-four p{
+	margin: 3px 0px;
+}
+/* Investment Section */
+.invest{
+	width: 100%;
+	float: left;
+	padding: 25px 0px;
+}
+.invest-btn{
+	background-color: #67C529;
+    padding: 2px 2px;
+    margin-left:50px;
+    margin-top:12px;
+    border-style: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+}
+.fa.fa-dot-circle-o{
+	color: #146D1F;
+    font-size: 17px;
+}
+.invest-one{
+	width: 45%;
+	float: left;
+	margin: 0px 27px;
+	padding: 15px 0px;
+	background-color: #B4E1E1;
+}
+.invest-one h2{
+	margin-left: 25%;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.invest-one ul{
+	list-style:none;
+}
+.invest-one ul li{
+	margin-left: 50px;
+    padding: 6px 0px;
+
+}
+.invest-two{
+	width: 45%;
+	float: left;
+	margin: 0px 27px;
+	padding: 15px 0px;
+	background-color: #B4E1E1;
+}
+.invest-two h2{
+	margin-left: 25%;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.invest-two ul{
+	list-style: none;
+}
+.invest-two ul li{
+	margin-left: 50px;
+    padding: 6px 0px;
+
+}
+/*Blog Section*/
+.blog{
+	width: 100%;
+	float: left;
+}
+.blog-btn{
+	background-color: #67C529;
+    padding: 2px 2px;
+    margin-top: 5px;
+    border-style: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+}
+.blog-head{
+	text-align: center;
+	margin-bottom: 16px;
+}
+.blog-head h2{
+	color: #26576B;
+	font-size: 32px;
+}
+.blog-one{
+	width: 50%;
+	float: left;
+}
+.blog-one h2{
+	margin-bottom: 10px;
+	color: #234B78;
+}
+.blog-one p{
+	margin-bottom: 5px;
+}
+.blog-two{
+	width: 50%;
+	float: left;
+}
+.blog-two h2{
+	margin-bottom: 10px;
+	color: #234B78;
+}
+.blog-two p{
+	margin-bottom: 33px;
+}
+/*lender Section*/
+.lender{
+	width: 100%;
+	float: left;
+	background-color: #DCDCDC;
+    background-size: cover;
+    margin: 25px 0px;
+	padding: 57px 0px;
+    
+}
+.lender-main{
+	text-align:center;
+
+}
+.lender-main ul{
+	list-style:none;
+}
+.lender-main ul li{
+	font-weight: bolder;
+	padding: 2px 0px;
+}
+/*Testimonial Section*/
+.testimonial{
+	width: 100%;
+	float: left;
+	padding: 5px 0px;
+}
+.review{
+	margin: 0 auto;
+	text-align: center;
+}
+.review ul{
+	list-style: none;
+}
+.review ul li{
+	display: inline-block;
+	margin: 5px 3px;
+}
+.fa.fa-star{
+	color: #00B57D;
+}
+.fa.fa-star-o{
+	background-color: #6ED308;
+	padding: 9px 10px;
+	color: #fff;
+	font-size: 25px;
+
+}
+.fa.fa-star-o.no-review{
+	background-color: grey;
+}
+
+/*Showcase Section*/
+.showcase{
+	width: 100%;
+    float: left;
+    padding: 25px 0px;
+    background-color: #808080d4;
+}
+.showcase h2{
+	text-align: center;
+	color: #fff;
+}
+.this-class{
+	width: 200px;
+	margin: 7px 7px;
+}
+.showcase-one{
+	width: 20%;
+	float: left;
+	margin: 0px auto;
+}
+/*Footer Section*/
+footer{
+	width: 100%;
+	float: left;
+	background-color: #062E38;
+	padding: 60px 0px;
+	
+}
+.footer-one{
+	color:#fff;
+}
+.footer-one ul{
+	list-style: none;
+}
+.footer-one ul li{
+	display: inline-block;
+    padding: 0px 44px;
+    font-size: 16px;
+}
+
+
+
+
+
+
